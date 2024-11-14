@@ -3,7 +3,6 @@
 
 #include "Veiculo.h"
 
-
 class Moto : public Veiculo {
 private:
     const char* tipoDeGuidao;
@@ -13,4 +12,4 @@ public:
     void mostrarDetalhes() const;
 };
 
-#endif
+#endif 
