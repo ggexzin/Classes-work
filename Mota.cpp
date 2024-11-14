@@ -3,10 +3,18 @@
 
 using namespace std;
 
-Moto::Moto(const char* nome, const char* guidao) : Veiculo(nome), tipoDeGuidao(guidao) {}
+Mota::Mota(const char* nome, int celindrada, const string& cor, float preco, 
+             const string& vendedor, const string& marca, const string& matricula)
+    : Veiculo(nome), celindrada(celindrada), cor(cor), preco(preco), 
+      vendedor(vendedor), marca(marca), matricula(matricula) {}
 
-void Moto::mostrarDetalhes() const {
+void Mota::mostrarDetalhes() const {
     cout << "Nome do Veículo: " << nome << endl;
-    cout << "Tipo: Moto" << endl;
-    cout << "Tipo de Guidão: " << tipoDeGuidao << endl;
+    cout << "Tipo: Mota" << endl;
+    cout << "Celindrada: " << celindrada << endl;
+    cout << "Cor: " << cor << endl;
+    cout << "Preço: " << preco << endl;
+    cout << "Vendedor: " << vendedor << endl;
+    cout << "Marca: " << marca << endl;
+    cout << "Matrícula: " << matricula << endl;
 }
