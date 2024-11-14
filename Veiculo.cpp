@@ -1,8 +1,13 @@
-#include "Veiculo.h"
-#include <iostream>
+#ifndef VEICULO_H
+#define VEICULO_H
 
-Veiculo::Veiculo(const char* nome) : nome(nome) {}
+class Veiculo {
+protected:
+    const char* nome;
 
-void Veiculo::mostrarDetalhes() const {
-    cout << "Nome do Veículo: " << nome << endl;
-}
+public:
+    Veiculo(const char* nome);
+    void mostrarDetalhes() const;
+};
+
+#endif 
