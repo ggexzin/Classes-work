@@ -1,14 +1,21 @@
-#ifndef MOTO_H
-#define MOTO_H
+#ifndef MOTA_H
+#define MOTA_H
 
 #include "Veiculo.h"
+#include <string>
 
-class Moto : public Veiculo {
+class Mota : public Veiculo {
 private:
-    const char* tipoDeGuidao;
+    int celindrada;
+    string cor;
+    float preco;
+    string vendedor;
+    string marca;
+    string matricula;
 
 public:
-    Moto(const char* nome, const char* guidao);
+    Mota(const char* nome, int celindrada, const string& cor, float preco, 
+          const string& vendedor, const string& marca, const string& matricula);
     void mostrarDetalhes() const;
 };
 
