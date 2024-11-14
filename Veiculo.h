@@ -1,6 +1,5 @@
 #ifndef VEICULO_H
 #define VEICULO_H
-using namespace std;
 
 class Veiculo {
 protected:
