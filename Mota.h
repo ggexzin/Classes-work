@@ -14,7 +14,8 @@ private:
 
 public:
     Mota(string nome, int celindrada, string cor, float preco, 
-         string vendedor, string marca, string matricula);
+         string vendedor, string marca, string matricula) : Veiculo(nome), celindrada(celindrada), cor(cor), preco(preco), 
+        vendedor(vendedor), marca(marca), matricula(matricula){};
     void mostrarDetalhes() override;
 };
 
