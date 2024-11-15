@@ -22,4 +22,4 @@ int main() {
 }
 
 
-//créditos ao programador jogy pela correção de erros 
+//créditos ao programador jogy pela ajuda em erros
