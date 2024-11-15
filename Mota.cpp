@@ -8,7 +8,7 @@ Mota::Mota(const char* nome, int celindrada, const string& cor, float preco,
     : Veiculo(nome), celindrada(celindrada), cor(cor), preco(preco), 
       vendedor(vendedor), marca(marca), matricula(matricula) {}
 
-void Mota::mostrarDetalhes() const {
+void Mota::mostrarDetalhes() {
     cout << "Nome do Veículo: " << nome << endl;
     cout << "Tipo: Mota" << endl;
     cout << "Celindrada: " << celindrada << endl;
