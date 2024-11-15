@@ -17,7 +17,7 @@ private:
 public:
     Carro(const char* nome, int portas, int cavalos, const string& cor, float preco, 
           const string& vendedor, const string& marca, const string& matricula);
-    void mostrarDetalhes() const;
+    void mostrarDetalhes();
 };
 
 #endif 
