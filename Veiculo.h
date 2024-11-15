@@ -5,7 +5,7 @@ using namespace std;
 
 class Veiculo {
 private:
-    const string* nome;
+    const string nome;
 
 public:
     Veiculo(const string* nome);
