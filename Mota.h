@@ -2,7 +2,6 @@
 #define MOTA_H
 
 #include "Veiculo.h"
-#include <string>
 
 class Mota : public Veiculo {
 private:
@@ -14,9 +13,9 @@ private:
     string matricula;
 
 public:
-    Mota(char* nome, int celindrada, string cor, float preco, 
+    Mota(string nome, int celindrada, string cor, float preco, 
          string vendedor, string marca, string matricula);
-    void mostrarDetalhes();
+    void mostrarDetalhes() override;
 };
 
 #endif 
