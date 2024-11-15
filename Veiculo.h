@@ -5,10 +5,10 @@ using namespace std;
 
 class Veiculo {
     private:
-        const string nome;
+        string nome;
 
     public:
-        Veiculo(const string* nome);
+        Veiculo(string nome);
         virtual void mostrarDetalhes();
 };
 
