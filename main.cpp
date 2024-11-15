@@ -1,6 +1,5 @@
 #include "Carro.h"
 #include "Mota.h"
-#include <iostream>
 
 using namespace std;
 
