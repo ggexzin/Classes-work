@@ -2,7 +2,7 @@
 
 
 void Mota::mostrarDetalhes() {
-    cout << "Nome do Veículo: " << nome << endl;
+    Veiculo::mostrarDetalhes();
     cout << "Tipo: Mota" << endl;
     cout << "Celindrada: " << celindrada << endl;
     cout << "Cor: " << cor << endl;
