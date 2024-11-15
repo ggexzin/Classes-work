@@ -3,8 +3,8 @@
 
 using namespace std;
 
-Carro::Carro(const char* nome, int portas, int cavalos, const string& cor, float preco, 
-             const string& vendedor, const string& marca, const string& matricula)
+Carro::Carro(char* nome, int portas, int cavalos, string cor, float preco, 
+             string vendedor, string marca, string matricula)
     : Veiculo(nome), numeroDePortas(portas), cavalos(cavalos), cor(cor), preco(preco), 
       vendedor(vendedor), marca(marca), matricula(matricula) {}
 
