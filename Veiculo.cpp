@@ -1,7 +1,7 @@
 #include "Veiculo.h"
 using namespace std;
 
-Veiculo::Veiculo(const string* nome){}
+Veiculo::Veiculo(string nome){}
 
 void Veiculo::mostrarDetalhes() {
     cout << "Nome do Veiculo: " << nome << endl;
