@@ -8,7 +8,7 @@ Carro::Carro(const char* nome, int portas, int cavalos, const string& cor, float
     : Veiculo(nome), numeroDePortas(portas), cavalos(cavalos), cor(cor), preco(preco), 
       vendedor(vendedor), marca(marca), matricula(matricula) {}
 
-void Carro::mostrarDetalhes() const {
+void Carro::mostrarDetalhes() {
     cout << "Nome do Veículo: " << nome << endl;
     cout << "Tipo: Carro" << endl;
     cout << "Número de Portas: " << numeroDePortas << endl;
