@@ -14,7 +14,7 @@ private:
     string matricula;
 
 public:
-    Mota(const char* nome, int celindrada, string cor, float preco, 
+    Mota(char* nome, int celindrada, string cor, float preco, 
          string vendedor, string marca, string matricula);
     void mostrarDetalhes();
 };
