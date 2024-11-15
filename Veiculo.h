@@ -9,7 +9,7 @@ class Veiculo {
 
     public:
         Veiculo(const string* nome);
-        void mostrarDetalhes();
+        virtual void mostrarDetalhes();
 };
 
 #endif 
