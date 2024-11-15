@@ -1,12 +1,5 @@
 #include "Mota.h"
-#include <iostream>
 
-using namespace std;
-
-Mota::Mota(const char* nome, int celindrada, const string& cor, float preco, 
-             const string& vendedor, const string& marca, const string& matricula)
-    : Veiculo(nome), celindrada(celindrada), cor(cor), preco(preco), 
-      vendedor(vendedor), marca(marca), matricula(matricula) {}
 
 void Mota::mostrarDetalhes() {
     cout << "Nome do Veículo: " << nome << endl;
