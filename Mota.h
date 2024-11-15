@@ -5,6 +5,7 @@
 
 class Mota : public Veiculo {
 private:
+    //atributos da mota
     int celindrada;
     string cor;
     float preco;
