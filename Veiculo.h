@@ -1,14 +1,15 @@
 #ifndef VEICULO_H
 #define VEICULO_H
+#include <iostream>
 using namespace std;
 
 class Veiculo {
 protected:
-    const char* nome;
+    const string* nome;
 
 public:
-    Veiculo(const char* nome);
-    void mostrarDetalhes() const;
+    Veiculo(const string* nome);
+    void mostrarDetalhes();
 };
 
 #endif 
