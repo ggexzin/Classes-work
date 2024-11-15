@@ -20,3 +20,6 @@ int main() {
 
     return 0;
 }
+
+
+//créditos ao programador jogy pela correção de erros 
