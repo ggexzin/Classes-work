@@ -8,7 +8,7 @@ class Veiculo {
         string nome;
 
     public:
-        Veiculo(string nome);
+        Veiculo(nome);
         virtual void mostrarDetalhes();
 };
 
