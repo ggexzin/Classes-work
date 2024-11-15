@@ -4,7 +4,7 @@
 using namespace std;
 
 class Veiculo {
-protected:
+private:
     const string* nome;
 
 public:
