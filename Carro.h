@@ -19,7 +19,7 @@ class Carro : public Veiculo {
         Carro(string nome, int portas, int cavalos, string cor, float preco, //recebe o q tem no veiculo e herda o resta das variaveis
               string vendedor, string marca, string matricula) : Veiculo(nome), numeroDePortas(numeroDePortas), cavalos(cavalos), cor(cor), preco(preco), //isso aqui tá atribuindo o valor do parametro do contrutor ao atributo
             vendedor(vendedor), marca(marca), matricula(matricula){}
-        void mostrarDetalhes() override;
+        void mostrarDetalhes() override; //a classe ta a dar override no metodo
 };
 
 #endif 
